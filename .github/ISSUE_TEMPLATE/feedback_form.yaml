@@ -1,0 +1,57 @@
+name: Feedback Form
+description: Submit an issue, feedback or query
+assignees:
+  - priyanka-surana
+body: 
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to complete this form. We will get back to you shortly. 
+  - type: dropdown
+    id: subtype
+    attributes:
+      label: What does this report concern?
+      description: This form is for BIOSCAN informatics only. For all other queries, contact bioscan.info[at]sanger.ac.uk.
+      multiple: true
+      options:
+        - BOLD Records
+        - Quality Control
+        - Report Cards
+        - Something Else
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue | Query | Feedback
+      description: Tell us what happened and also, what you expected to happen. 
+      placeholder: Tell us what happened!
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser are you using?
+      description: Select all browsers you have tried.
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+    validations:
+      required: true
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Anything else
+      description: Please add any additional information, you wish us to know. 
+      placeholder: More information.
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/sanger-tol/bioscan.cog/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
