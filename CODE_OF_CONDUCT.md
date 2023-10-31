@@ -46,7 +46,7 @@ Questions, concerns, or ideas on what we can include? Contact members of the Saf
 
 ### Ethos
 
-![T222 Ethos](assets/images/T222_ethos.png)
+![T222 Ethos](assets/images/ethos.png)
 
 The banner above reflects our values. It reminds us that everyone has their own unique qualities, some of which may not be immediately visible, and that each person faces their own personal challenges, often in private. Let's always be there to support each other and, whenever possible, give people the benefit of the doubt.
 
